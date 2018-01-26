@@ -22,7 +22,7 @@ pygame.display.set_caption('A bit racey')
 logging.info("setting the clock")
 clock = pygame.time.Clock()
 logging.info("uploading the image of car")
-carImg = pygame.image.load("/home/ahmed/Desktop/game/racecar.png")  ##uploading image
+carImg = pygame.image.load("racecar.png")  ##uploading image
 logging.info("defining a function of car")
 
 def things(thingx, thingy,thingw, thingh, color):
@@ -51,7 +51,7 @@ def message_display(text):
 	game_loop()
 
 def crash():
-	message_display("you Crashed")
+	message_display("You Crashed")
 
 
 
